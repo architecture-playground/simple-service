@@ -1,0 +1,6 @@
+server:
+  port: 15777
+
+spring:
+  application:
+    name: "simple-service"
