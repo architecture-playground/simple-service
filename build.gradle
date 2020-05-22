@@ -21,6 +21,7 @@ repositories {
 dependencies {
     // web
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator:2.2.0.RELEASE'
 
     // 3-rd party
     implementation 'org.atteo:evo-inflector:1.0.1'

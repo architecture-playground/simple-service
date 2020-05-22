@@ -4,3 +4,9 @@ server:
 spring:
   application:
     name: "simple-service"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include=*:
