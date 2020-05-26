@@ -15,6 +15,6 @@ RUN echo "Gradle clean build started" && \
 CMD gradle test
 
 FROM adoptopenjdk/openjdk13:x86_64-alpine-jdk-13.0.2_8-slim as app
-COPY --from=build /app/ .
+COPY --from=build /app/ /app/
 EXPOSE 15777
 ENTRYPOINT java -jar /app/*.jar
